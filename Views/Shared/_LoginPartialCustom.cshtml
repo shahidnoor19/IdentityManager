@@ -15,9 +15,10 @@
         <li class="nav-item">
             <a class="nav-link" href="#">Hello @UserManager.GetUserName(User)</a>
         </li>
-        <li>
-            <form id="logoutForm" method="post" class="form-inline" asp-controller="Account" asp-action="Logoff"></form>
-            <button type="submit" class="btn btn-link"></button>
+        <li class="nav-item">
+            <form id="logoutForm" method="post" class="form-inline" asp-controller="Account" asp-action="LogOff">
+                <button type="submit" class="btn btn-link">LogOut</button>
+            </form>
         </li>
     }
     else
